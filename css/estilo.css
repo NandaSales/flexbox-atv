@@ -20,7 +20,7 @@
 }
 
 #menu a {
-  background-color: #555;
+  background-color:#3290ef;
   color: #fff;
   padding: 12px 35px;
   color: #fff;
@@ -30,8 +30,161 @@
 }
 
 #menu a:hover {
-  background-color: #999;
+  background-color: #a7ccf1a9;
 }
 
 /* NÃO ALTERE DAQUI PRA CIMA */
 /* ESCREVA SEU CÓDIGO ABAIXO */
+
+
+layout {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.layout1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.layout1 .cabecalho,
+.layout1 .rodape {
+  background-color: #3290ef;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.layout1 .corpo {
+  display: flex;
+  flex: 1;
+}
+
+.layout1 .artigos {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.layout1 .artigo {
+  flex: 1;
+  background-color: #d5ecfd;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.layout1 .menu {
+  flex: 1;
+  background-color: #bfe0f6;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.layout2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.layout2 .header,
+.layout2 .footer {
+  background-color: #3290ef;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.layout2 .main {
+  flex: 1;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+.layout2 .menu {
+  flex: 1;
+  background-color: #b0d3e7;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.layout2 .menu-itens {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.layout2 .menu-itens button {
+  padding: 8px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background: #3290ef;
+  color: #fff;
+}
+
+.layout2 .menu-itens button:hover {
+  background: #3290ef;
+}
+
+.layout2 .content {
+  flex: 2;
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.layout2 .ads {
+  flex: 1;
+  background-color:  #bfe0f6;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+
+.layout3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.layout3 .nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #a7ccf1a9;
+  color: white;
+  padding: 15px;
+}
+
+.layout3 .cards {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+}
+
+.layout3 .card {
+  background-color: #ecf0f1;
+  padding: 20px;
+  flex: 1;
+  min-width: 200px;
+  border-radius: 6px;
+}
+
+.layout3 .footer3 {
+  display: flex;
+  justify-content: space-around;
+  background-color:  #bfe0f6;
+  padding: 20px;
+}
+
